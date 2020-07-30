@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gymnash</title>
+
+    <!--TITLE LOGO  -->
+    <link rel="icon" href="images/logo.png">
+
+
+    <!-- additional links -->
+    <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
+    <!-- UIkit CSS -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/css/uikit.min.css" /> -->
+
+    <!-- UIkit JS -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit-icons.min.js"></script> -->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+
+    <!-- Font Awesome CDN -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div id="loader" class="center"></div> 
+    <div >
+        <div class="contain">
+            
+            <header>
+                <div class="nav-wrapper">
+                    <div class="logo-container">
+                        <img class="logo" src="images/logo.png" alt="Logo">
+                    </div>
+                    <nav>
+                        <input class="hidden" type="checkbox" id="menuToggle">
+                        <label class="menu-btn" for="menuToggle">
+                            <div class="menu"></div>
+                            <div class="menu"></div>
+                            <div class="menu"></div>
+                        </label>
+                        <div class="nav-container">
+                            <ul class="nav-tabs">
+                                <li class="nav-tab">Home</li>
+                                <li class="nav-tab">Blog</li>
+                                <!-- <li class="nav-tab">Services</li> -->
+                                <li class="nav-tab">FAQ</li>
+                                <li class="nav-tab">Contact</li>
+                                <!-- <li class="nav-tab">Careers</li> -->
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <div class="main">
+                <center><h1>gymnash</h1></center>
+                <center><p> Discover the best gym in <b>Raipur</b></p></center>
+                <center>
+                    <!-- <nav class="uk-navbar-container search" uk-navbar>
+                        <div class="uk-navbar-left"> -->
+                            <!-- <div class="uk-navbar-item"> -->
+                                <!-- <form class="uk-search uk-search-navbar form-style" style="padding:10px 20px;">
+                                    <span uk-search-icon style="padding-left: 15px;"></span>
+                                    <input  class="uk-search-input" type="search" placeholder="Search your gym">
+                                </form> -->
+                            <!-- </div> -->
+                    
+                        <!-- </div>
+                    </nav> -->
+                    <form class="main-form">
+                        <span><img class="search-icon" src="images/search.svg"></span>
+                        <input class="input-form" name="search" placeholder="Search ...">
+                    </form>
+                </center>
+            </div>
+        </div>
+        
+        <div>
+        
+        </div>
+        <div class="gym-cards">
+            <div class="gym-card">
+                <div class="card_image"> <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/home-gym-lead-image-1586968939.jpg?crop=1.00xw:0.920xh;0.00160xw,0.0795xh&resize=640:*" /> </div>
+                <div class="card_title title-white">
+                    <p>Sarang Gym</p>
+                </div>
+            </div>  
+            <div class="gym-card">
+                <div class="card_image">
+                    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/home-gym-lead-image-1586968939.jpg?crop=1.00xw:0.920xh;0.00160xw,0.0795xh&resize=640:*" />
+                    </div>
+                <div class="card_title title-white">
+                    <p>Sarang Gym</p>
+                </div>
+
+            </div>
+            <div class="gym-card">
+                <div class="card_image">
+                    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/home-gym-lead-image-1586968939.jpg?crop=1.00xw:0.920xh;0.00160xw,0.0795xh&resize=640:*" />
+                </div>
+                <div class="card_title">
+                    <p>Sarang Gym</p>
+                </div>
+            </div>
+            <div class="gym-card">
+                <div class="card_image">
+                    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/home-gym-lead-image-1586968939.jpg?crop=1.00xw:0.920xh;0.00160xw,0.0795xh&resize=640:*" />
+                    </div>
+                <div class="card_title title-black">
+                    <p>Sarang Gym</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="foot">
+                <div class="foot-menu">
+                    
+                </div>
+                <div class="foot-menu">
+
+                </div>
+                <div class="foot-menu">
+
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script> 
+        document.onreadystatechange = function() { 
+            if (document.readyState !== "complete") { 
+                document.querySelector( 
+                  "body").style.visibility = "hidden"; 
+                document.querySelector( 
+                  "#loader").style.visibility = "visible"; 
+            } else { 
+                document.querySelector( 
+                  "#loader").style.display = "none"; 
+                document.querySelector( 
+                  "body").style.visibility = "visible"; 
+            } 
+        }; 
+    </script> 
+</body>
+</html>
+
+<!-- 
+    Colors
+    Main Color - #f86926
+    For text - #070d19, #434345, #11172b
+    For background - #ffffff, #cdcdcd
+    For shadow - #cdcdcd
+ -->
